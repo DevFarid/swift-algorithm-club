@@ -136,13 +136,7 @@ Below are some examples for each category of performance:
   
   Another example is trying to find the value of a certain element in the Fibonacci Sequence.
   
-    ```swift
-    func fib(_ element: Int) -> Int {
-      guard element > 2 else { return 1 }
-      
-      return fib(element - 1) + fib(element - 2)
-    }
-    ```
+
 
 **O(n!)**
 
